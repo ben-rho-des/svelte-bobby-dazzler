@@ -1,2 +1,2 @@
-# svelete-bobby-dazzler
+# svelte-bobby-dazzler
 Component library with svelte (postcss + storybook)
