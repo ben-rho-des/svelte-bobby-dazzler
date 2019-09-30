@@ -31,7 +31,6 @@
                 <Charset />
             </div>
         {/each}
-    
     {/each}
   </div>
 </Page>

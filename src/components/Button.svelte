@@ -1,5 +1,6 @@
 <script>
 	export let title = "";
+	export let type = "button";
 </script>
 
 <style>
@@ -30,6 +31,6 @@
 	}
 </style>
 
-<button type="button" title={title}>
+<button type={type} title={title}>
 	<slot>[no content was provided]</slot>
 </button>
