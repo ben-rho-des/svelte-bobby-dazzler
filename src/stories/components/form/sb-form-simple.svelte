@@ -20,9 +20,9 @@
 <Form>
   Form
 
-  <Input validationRules={firstValidationRules}>
+  <Input id="email" anchorName="Email address" validationRules={firstValidationRules}>
     <p slot="error">THERE IS DEFINATELY AN ERROR!</p>
   </Input>
-  <Input validationRules={secondValidationRules}></Input>
-  <Input validationRules={thirdValidationRules}></Input>
+  <Input id="bus_email" anchorName="Business email address" validationRules={secondValidationRules}></Input>
+  <Input id="amount" anchorName="Amount" validationRules={thirdValidationRules}></Input>
 </Form>
